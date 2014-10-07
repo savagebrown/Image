@@ -1,6 +1,7 @@
 <?php
 
 	ini_set("include_path", '/Users/savage/Code/Kontent'     . PATH_SEPARATOR . ini_get("include_path"));
+	ini_set('error_reporting', E_ALL ^ E_NOTICE ^ E_WARNING ^ E_DEPRECATED ^ E_STRICT);
 
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
