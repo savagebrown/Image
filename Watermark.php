@@ -107,7 +107,7 @@
                  $this->position, 
                  $this->padding, 
                  $this->img_savename, 
-                 $this->img_saveto) = $image_options;
+                 $this->img_saveto = $image_options;
                  
              // Use original name if savename is not provided
              if (!$this->img_savename) {
